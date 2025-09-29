@@ -9,6 +9,11 @@ Python code for speech–cognition dual-task analysis (speech, pupil, t-fMRI)
 
 > 如果对你有帮助，欢迎点个 Star :)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-orange.svg)](https://www.python.org/)
+[![openSMILE](https://img.shields.io/badge/openSMILE-2.x-brightgreen.svg)](https://www.audeering.com/opensmile/)
+[![Librosa](https://img.shields.io/badge/Librosa-0.9%2B-green.svg)](https://github.com/librosa/librosa)
+
 ## 组成（概览）
 - **Part 1｜语音 × 眼动**：行为统计、可视化、瞳孔数据导出与预处理、任务窗口切片与合并  
 - **Part 2｜t-fMRI & AFNI**：基于事件表创建 timing 文件，自动生成 3dttest++ / 3dANOVA 系列命令  
@@ -25,5 +30,11 @@ Python code for speech–cognition dual-task analysis (speech, pupil, t-fMRI)
 
 感谢上述开源项目与作者的贡献。请遵循各自 LICENSE 进行引用与再利用。
 
+## 依赖（示例）
+- Python ≥ 3.8  
+- `numpy`, `pandas`, `scipy`, `matplotlib`, `seaborn`  
+- `pingouin`, `statannotations`, `ptitprince`  
+- 可选：`librosa`, `opensmile`（或 openSMILE 可执行/配置）
+
 ## 许可
-GPL-3.0。使用或修改本仓库代码时，请保留版权与许可声明，并在论文/报告的方法部分致谢与引用相关来源。
+MIT License。使用或修改本仓库代码时，请保留版权与许可声明，并在论文/报告的方法部分致谢与引用相关来源。
