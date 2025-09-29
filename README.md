@@ -1,5 +1,6 @@
 # SpeechDualTaskAnal
 Python code for speech–cognition dual-task analysis (speech, pupil, t-fMRI)
+ReadMe Language | [English readme](./readme_EN.md) | 
 
 ## 简介
 本仓库为论文配套代码，面向 **DDK-WM / PDSS** 等言语-工作记忆双任务范式。涵盖：
