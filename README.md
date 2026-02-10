@@ -177,29 +177,9 @@ ReadMe Language | [English readme](./readme_EN.md) |
 
 ---
 
-## 总结：复现顺序（强烈建议）
+## 总结：复现顺序
 
 1. **Part 1（眼动）**：得到眼动整合表（供后续融合/统计/建模）
 2. **Part 2（影像）**：得到个体层面结果 + 组水平统计结果与图
 3. **Part 3（统计）**：读取 `data.csv` 输出统计表与图（论文主结果图表的主要来源）
 
-
-## 参考与致谢（代码/方法来源）
-- **openSMILE 与经典特征集**（eGeMAPS、ComParE、IS09）  
-  - Eyben et al., *IEEE TAFFC*, 2015（GeMAPS）  
-  - Schuller et al., *INTERSPEECH 2009/2013/2016*（IS09/ComParE）
-- **Librosa**：McFee et al., *Librosa: Audio and Music Signal Analysis in Python*  
-- **Pupil Labs**：导出字段/时间戳与同步思路参考其文档与社区实践  
-- **AFNI**：`3dttest++`、`3dANOVA*`、gPPI 等官方手册与示例脚本  
-- **统计与可视化**：`pingouin`（RM-ANOVA/效应量/事后比较）、`statannotations`（显著性标注）、`ptitprince`（raincloud 图）、`matplotlib`/`seaborn`
-
-感谢上述开源项目与作者的贡献。请遵循各自 LICENSE 进行引用与再利用。
-
-## 依赖（示例）
-- Python ≥ 3.8  
-- `numpy`, `pandas`, `scipy`, `matplotlib`, `seaborn`  
-- `pingouin`, `statannotations`, `ptitprince`  
-- 可选：`librosa`, `opensmile`（或 openSMILE 可执行/配置）
-
-## 许可
-MIT License。使用或修改本仓库代码时，请保留版权与许可声明，并在论文/报告的方法部分致谢与引用相关来源。
